@@ -61,13 +61,15 @@
     "versionFirst": "4.7.6",
     "uniqCompNum": 22,
     "versionPublish": "4.10.1",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/my-4-128x128.png",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "WERD",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
