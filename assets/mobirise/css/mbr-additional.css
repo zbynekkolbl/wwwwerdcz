@@ -44,10 +44,10 @@ body {
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2.4rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.4rem;
+  font-size: 3.84rem;
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
@@ -78,9 +78,9 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.2rem;
-    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.92rem;
+    font-size: calc( 1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1451,9 +1451,9 @@ body {
   }
 }
 .cid-ruqMrMVlvi {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/email-r-6-1024x1024.jpg");
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url("../../../assets/images/kalend-r-2000x2000.jpg");
 }
 .cid-ruqMrMVlvi .icons-media-container {
   display: flex;
@@ -1484,6 +1484,55 @@ body {
 }
 .cid-ruqMrMVlvi H1 {
   text-align: left;
+}
+.cid-ruCjPUM6bU {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #cccccc;
+}
+.cid-ruCjPUM6bU .carousel-item {
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.cid-ruCjPUM6bU .carousel-item.active,
+.cid-ruCjPUM6bU .carousel-item-next,
+.cid-ruCjPUM6bU .carousel-item-prev {
+  display: flex;
+}
+.cid-ruCjPUM6bU .carousel-controls a {
+  transition: opacity .5s;
+  font-size: 2rem;
+}
+.cid-ruCjPUM6bU .carousel-controls a span {
+  position: absolute;
+  top: 180px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #585858;
+  background: #c8c6c6;
+  opacity: .5;
+}
+.cid-ruCjPUM6bU .carousel-controls a:hover span {
+  opacity: 1;
+}
+.cid-ruCjPUM6bU .user_image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1.6rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 2rem auto;
+}
+.cid-ruCjPUM6bU .user_image img {
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+@media (max-width: 230px) {
+  .cid-ruCjPUM6bU .user_image {
+    width: 100%;
+    height: auto;
+  }
 }
 .cid-qTkAaeaxX5 {
   padding-top: 45px;
@@ -1948,53 +1997,4 @@ body {
 .cid-ruBWe6oYKK .nav-link:hover,
 .cid-ruBWe6oYKK .dropdown-item:hover {
   color: #c1c1c1 !important;
-}
-.cid-ruCjPUM6bU {
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background-color: #cccccc;
-}
-.cid-ruCjPUM6bU .carousel-item {
-  justify-content: center;
-  -webkit-justify-content: center;
-}
-.cid-ruCjPUM6bU .carousel-item.active,
-.cid-ruCjPUM6bU .carousel-item-next,
-.cid-ruCjPUM6bU .carousel-item-prev {
-  display: flex;
-}
-.cid-ruCjPUM6bU .carousel-controls a {
-  transition: opacity .5s;
-  font-size: 2rem;
-}
-.cid-ruCjPUM6bU .carousel-controls a span {
-  position: absolute;
-  top: 180px;
-  padding: 10px;
-  border-radius: 50%;
-  color: #585858;
-  background: #c8c6c6;
-  opacity: .5;
-}
-.cid-ruCjPUM6bU .carousel-controls a:hover span {
-  opacity: 1;
-}
-.cid-ruCjPUM6bU .user_image {
-  width: 200px;
-  height: 200px;
-  margin-bottom: 1.6rem;
-  overflow: hidden;
-  border-radius: 50%;
-  margin: 0 auto 2rem auto;
-}
-.cid-ruCjPUM6bU .user_image img {
-  width: 100%;
-  min-width: 100%;
-  min-height: 100%;
-}
-@media (max-width: 230px) {
-  .cid-ruCjPUM6bU .user_image {
-    width: 100%;
-    height: auto;
-  }
 }
